@@ -22,6 +22,17 @@ public class Product {
     Double prodPrice;
     String prodImage;
 
+    String productId;
+    String productName;
+    String supplierId;
+    String categoryId;
+    Integer quantityPerUnit;
+    Double unitPrice;
+    Integer unitsInStock;
+    Integer unitsOnStock;
+    String reorderLevel;
+    Boolean discountinued;
+
     public Product() {
     }
 
@@ -70,5 +81,85 @@ public class Product {
 
     public void setProdImage(String prodImage) {
         this.prodImage = prodImage;
+    }
+
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String getSupplierId() {
+        return supplierId;
+    }
+
+    public void setSupplierId(String supplierId) {
+        this.supplierId = supplierId;
+    }
+
+    public String getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(String categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public Integer getQuantityPerUnit() {
+        return quantityPerUnit;
+    }
+
+    public void setQuantityPerUnit(Integer quantityPerUnit) {
+        this.quantityPerUnit = quantityPerUnit;
+    }
+
+    public Double getUnitPrice() {
+        return unitPrice;
+    }
+
+    public void setUnitPrice(Double unitPrice) {
+        this.unitPrice = unitPrice;
+    }
+
+    public Integer getUnitsInStock() {
+        return unitsInStock;
+    }
+
+    public void setUnitsInStock(Integer unitsInStock) {
+        this.unitsInStock = unitsInStock;
+    }
+
+    public Integer getUnitsOnStock() {
+        return unitsOnStock;
+    }
+
+    public void setUnitsOnStock(Integer unitsOnStock) {
+        this.unitsOnStock = unitsOnStock;
+    }
+
+    public String getReorderLevel() {
+        return reorderLevel;
+    }
+
+    public void setReorderLevel(String reorderLevel) {
+        this.reorderLevel = reorderLevel;
+    }
+
+    public Boolean getDiscountinued() {
+        return discountinued;
+    }
+
+    public void setDiscountinued(Boolean discountinued) {
+        this.discountinued = discountinued;
     }
 }
